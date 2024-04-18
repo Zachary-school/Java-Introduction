@@ -2,16 +2,7 @@ import javax.swing.JOptionPane;
 
 
 public class True_False {
-    public static void main(String[] args) throws Exception {
-
-/*        
-    String name = JOptionPane.showInputDialog ("Enter your name");
-        JOptionPane.showMessageDialog(null, "Oh Hello..." + name);
-
-        
-        int age = Integer.parseInt(JOptionPane .showInputDialog ("Enter your age"));
-        JOptionPane.showMessageDialog(null, ("You are "+age+" years old"));
-        */
+    public void TrueFalse ()throws Exception {
         
     boolean correct = false;
         while (correct != true) {

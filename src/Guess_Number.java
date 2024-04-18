@@ -2,7 +2,7 @@ import javax.swing.JOptionPane;
 
 
 public class Guess_Number {
-    public static void main(String[] args) throws Exception {
+    public void GuessNumber () throws Exception {
         int R_Number = (int) (Math.floor(Math.random() * 100)+1);
         int R_Guess = 0;
 
